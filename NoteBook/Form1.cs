@@ -62,6 +62,7 @@ namespace NoteBook
                 {
                     string text = File.ReadAllText(file);
                     size = text.Length;
+                    TextField.Text = text;
                 }
                 catch (IOException)
                 {
@@ -71,5 +72,12 @@ namespace NoteBook
             Console.WriteLine(result); // <-- For debugging use.
         
     }
+
+        private void btnnew_Click(object sender, EventArgs e)
+        {
+            TextField.Clear();
+            Filename = null;
+            comboBox1.Text = "";
+        }
     }
 }

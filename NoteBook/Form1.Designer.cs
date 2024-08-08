@@ -72,16 +72,16 @@
             this.Filename.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Italic);
             this.Filename.Location = new System.Drawing.Point(265, 385);
             this.Filename.Name = "Filename";
-            this.Filename.Size = new System.Drawing.Size(125, 24);
+            this.Filename.Size = new System.Drawing.Size(125, 28);
             this.Filename.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(187, 389);
+            this.label1.Location = new System.Drawing.Point(164, 387);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.Size = new System.Drawing.Size(95, 22);
             this.label1.TabIndex = 3;
             this.label1.Text = "File Name :";
             // 
@@ -94,6 +94,7 @@
             this.btnnew.TabIndex = 1;
             this.btnnew.Text = "New";
             this.btnnew.UseVisualStyleBackColor = true;
+            this.btnnew.Click += new System.EventHandler(this.btnnew_Click);
             // 
             // comboBox1
             // 
@@ -113,7 +114,7 @@
             "png"});
             this.comboBox1.Location = new System.Drawing.Point(396, 385);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(70, 24);
+            this.comboBox1.Size = new System.Drawing.Size(70, 29);
             this.comboBox1.TabIndex = 4;
             // 
             // Form1
